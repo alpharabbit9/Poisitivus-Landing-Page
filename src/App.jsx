@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Lenis from 'lenis'
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Sections/Banner';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
 
@@ -30,10 +31,14 @@ const App = () => {
 
         <main>
 
-          <Banner/>
-          
+          <Banner />
+
         </main>
-        <footer></footer>
+        <footer>
+
+          <Footer />
+
+        </footer>
       </div>
 
 
