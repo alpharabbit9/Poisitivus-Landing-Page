@@ -3,6 +3,14 @@ import Lenis from 'lenis'
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Sections/Banner';
 import Footer from './Components/Footer/Footer';
+import Poster from './Sections/poster';
+import Services from './Sections/Services';
+import SponsorPartner from './Sections/SponsorPartner';
+import CaseStudiesSection from './Sections/CaseStudiesSetion';
+import ContactUsSection from './Sections/ContactUsSection';
+import WorkingProcessSection from './Sections/WorkingProcessSection';
+import TeamSection from './Sections/TeamSection';
+import TestimonialsSection from './Sections/TestimonialsSection';
 
 const App = () => {
 
@@ -19,7 +27,7 @@ const App = () => {
     requestAnimationFrame(raf);
   })
   return (
-    <div className='bg-[#F3F3F3] min-h-screen text-[#191A23]   overflow-hidden'>
+    <div className='bg-[#FFFFFF] min-h-screen text-[#191A23]  overflow-hidden'>
 
       <div className='w-11/12 mx-auto'>
 
@@ -32,6 +40,14 @@ const App = () => {
         <main>
 
           <Banner />
+          <SponsorPartner/>
+          <Services/>
+          <Poster/>
+          <CaseStudiesSection/>
+          <WorkingProcessSection/>
+          <TeamSection/>
+          <TestimonialsSection/>
+          <ContactUsSection/>
 
         </main>
         <footer>
