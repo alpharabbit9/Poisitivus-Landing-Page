@@ -55,7 +55,7 @@ const TestimonialSlider = ({ testimonials }) => {
   return (
     <div className="w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 min-h-[220px]">
-        <AnimatePresence mode="popLayout">
+        <AnimatePresence mode="wait">
           {getCurrentTestimonials().map((testimonial, index) => (
             <TestimonialCard
               key={`${currentSlide}-${index}`}

@@ -103,7 +103,7 @@ const ContactUsSection = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, delay: 0.3 }}
                             viewport={{ once: true }}
-                            className="flex justify-end"
+                            className=" hidden lg:flex justify-end"
                         >
                             <SeoIllustration />
                         </motion.div>
