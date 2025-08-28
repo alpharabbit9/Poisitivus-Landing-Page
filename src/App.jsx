@@ -3,7 +3,7 @@ import Lenis from 'lenis'
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Sections/Banner';
 import Footer from './Components/Footer/Footer';
-import Poster from './Sections/poster';
+import Poster from './Sections/Poster'
 import Services from './Sections/Services';
 import SponsorPartner from './Sections/SponsorPartner';
 import CaseStudiesSection from './Sections/CaseStudiesSetion';
