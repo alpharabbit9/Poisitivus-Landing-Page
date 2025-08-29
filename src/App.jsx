@@ -13,6 +13,8 @@ import TeamSection from './Sections/TeamSection';
 import TestimonialsSection from './Sections/TestimonialsSection';
 import Proposal from './Sections/Proposal';
 
+
+
 const App = () => {
 
   useEffect(() => {
@@ -34,6 +36,7 @@ const App = () => {
 
         <header>
 
+          
           <Navbar />
 
         </header>
